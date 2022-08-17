@@ -1,6 +1,6 @@
 ﻿
 Console.WriteLine("Please, enter your age: ");
-int age = int.Parse(Console.ReadLine());
+int age = Convert.ToInt32(Console.ReadLine());
 
 if (age > 17){
     Console.WriteLine("You can drink alchool ");
