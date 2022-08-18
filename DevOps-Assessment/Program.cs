@@ -11,11 +11,11 @@ class Program
 
             if (age > 17)
             {
-                Console.WriteLine("You can drink alchool because you are " + age + " years old.");
+                Console.WriteLine("Hi " + name + ", you can drink alchool because you are " + age + " years old.");
             }
             else
             {
-                Console.WriteLine("You can not drink alchool because you are " + age + " years old.");
+                Console.WriteLine("Hi " + name + ", you can not drink alchool because you are " + age + " years old.");
             }
         }
     }
